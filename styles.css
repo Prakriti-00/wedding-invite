@@ -1,0 +1,46 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f8f0f2;
+    color: #4a2c2a;
+    text-align: center;
+    padding: 50px;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: #a00;
+}
+h2 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+p {
+    font-size: 1.2em;
+}
+.date {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #d89a9a;
+}
+.location {
+    margin-top: 20px;
+    font-style: italic;
+    color: #a00;
+}
+.rsvp {
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+.footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #888;
+}
+.flower-icon {
+    width: 50px;
+    margin: 20px;
+}
+.cake-icon {
+    width: 50px;
+    margin: 20px;
+}
