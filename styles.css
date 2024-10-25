@@ -4,22 +4,25 @@ body {
     color: #4a2c2a;
     text-align: center;
     padding: 50px;
+    background-image: url('https://example.com/your-background-image.jpg'); /* Add an extravagant background image */
+    background-size: cover;
 }
 h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     margin-bottom: 0.5em;
     color: #a00;
 }
 h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 0.5em 0;
+    color: #800000;
 }
 p {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 .date {
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: #d89a9a;
 }
 .location {
@@ -27,20 +30,19 @@ p {
     font-style: italic;
     color: #a00;
 }
+.icons {
+    margin: 30px 0;
+}
+.flower-icon, .cake-icon {
+    width: 70px; /* Increase icon size for extravagance */
+    margin: 15px;
+}
 .rsvp {
     margin-top: 30px;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 .footer {
     margin-top: 50px;
-    font-size: 0.9em;
+    font-size: 1.1em;
     color: #888;
-}
-.flower-icon {
-    width: 50px;
-    margin: 20px;
-}
-.cake-icon {
-    width: 50px;
-    margin: 20px;
 }
