@@ -1,14 +1,16 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #fff0f0; /* Light background */
-    background-image: url('https://example.com/your-pattern-image.jpg'); /* Use an Indian pattern image */
+    background-image: url('https://example.com/your-floral-pattern-image.png'); /* Replace with your floral pattern image */
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: 0.8; /* Translucent effect */
     margin: 0;
     padding: 0;
 }
+
 .invitation-container {
-    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -16,41 +18,50 @@ body {
     margin: 50px auto;
     text-align: center;
 }
+
 h1 {
     font-size: 3.5em;
     margin-bottom: 0.5em;
     color: #a00;
 }
+
 h2 {
     font-size: 2.5em;
     margin: 0.5em 0;
     color: #800000;
 }
+
 p {
     font-size: 1.5em;
 }
+
 .date {
     font-weight: bold;
     font-size: 1.8em;
     color: #d89a9a;
 }
+
 .location {
     margin-top: 20px;
     font-style: italic;
     color: #a00;
 }
+
 .icons {
     margin: 30px 0;
 }
+
 .flower-icon, .cake-icon {
     width: 80px; /* Increase icon size for elegance */
     margin: 15px;
 }
-.rsvp {
+
+.contact {
     margin-top: 30px;
     font-size: 1.5em;
     color: #800000;
 }
+
 .footer {
     margin-top: 50px;
     font-size: 1.2em;
