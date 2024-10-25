@@ -1,10 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: #fff0f0; /* Light background */
-    background-image: url('https://example.com/your-floral-pattern-image.png'); /* Replace with your floral pattern image */
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.8; /* Translucent effect */
+    background-color: #A00000; /* Deep red background */
     margin: 0;
     padding: 0;
 }
