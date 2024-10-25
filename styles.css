@@ -1,5 +1,5 @@
 body {
-    background-color: #A00000; /* Deep red background */
+    background-color: #e60000; /* Deep red background */
     font-family: 'Arial', sans-serif;
     color: white;
     margin: 0;
@@ -8,27 +8,25 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    position: relative;
+    overflow: hidden; /* Prevent overflow */
 }
 
 .invitation-container {
     background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     padding: 40px;
     text-align: center;
     max-width: 800px;
+    position: relative;
+    z-index: 1; /* Keep content above the background */
 }
 
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #A00000; /* Red color for the title */
-}
-
-.couple-photo img {
-    border-radius: 10px;
-    width: 80%;
-    height: auto;
+    color: #a00000; /* Dark red for the title */
 }
 
 .invitation-message {
@@ -44,22 +42,33 @@ h1 {
     margin: 20px 0;
 }
 
-.images {
-    margin: 20px 0;
-}
-
-.images img {
-    width: 80px;
-    margin: 0 10px;
-}
-
 .location {
     margin-top: 20px;
 }
 
 .location a {
-    color: #A00000; /* Red color for the link */
+    color: #a00000; /* Dark red for the link */
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
+    padding: 10px 20px;
+    border: 2px solid #a00000; /* Border for the button */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.location a:hover {
+    background-color: #a00000; /* Dark red on hover */
+    color: white; /* White text on hover */
+}
+
+.flowers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://via.placeholder.com/1920x1080.png?text=Floral+Pattern'); /* Placeholder for floral background */
+    opacity: 0.1; /* Translucent floral background */
+    z-index: 0; /* Behind the invitation content */
 }
