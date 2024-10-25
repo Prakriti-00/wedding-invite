@@ -4,7 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wedding Invite</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+    <style>
+        body {
+            background: url('https://via.placeholder.com/1920x1080.png?text=Floral+Pattern') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: black;
+            position: relative;
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+            font-style: italic;
+            margin: 20px 0;
+            text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.7);
+        }
+        .couple-photo {
+            margin: 20px 0;
+        }
+        .details {
+            font-size: 1.5em;
+            text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+        }
+        .images {
+            margin: 20px 0;
+        }
+        img {
+            width: 100px;
+            height: auto;
+            margin: 10px;
+        }
+        .location {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 1.2em;
+        }
+        .location a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .invitation-message {
+            font-style: italic;
+            color: black; /* Ensure it's black */
+            margin: 20px;
+            max-width: 600px; /* Limit width for better readability */
+        }
+    </style>
 </head>
 <body>
 
@@ -24,3 +77,13 @@
     </div>
 
     <div class="images">
+        <img src="https://via.placeholder.com/100x100.png?text=Cake" alt="Cake">
+        <img src="https://via.placeholder.com/100x100.png?text=Flowers" alt="Flowers">
+    </div>
+
+    <div class="location">
+        <a href="https://www.tajhotels.com/en-in/taj/taj-mahal-palace-mumbai/" target="_blank">Location</a>
+    </div>
+
+</body>
+</html>
